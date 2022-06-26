@@ -3,10 +3,10 @@
 
 <script setup>
 import { isExternal as external } from '@/utils/validate'
-import {  computed } from 'vue'
+import { computed } from 'vue'
 
 defineProps({
-    
+
 })
 </script>
 

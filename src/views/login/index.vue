@@ -22,9 +22,9 @@
 </template>
 
 <script setup>
-import { ref } from '@vue/reactivity';
-import SvgIcon from '../../components/SvgIcon/index.vue';
-import { validatePassword } from './rules';
+import { ref } from '@vue/reactivity'
+import SvgIcon from '../../components/SvgIcon/index.vue'
+import { validatePassword } from './rules'
 // 数据源
 const loginForm = ref({
   username: 'super-admin',
